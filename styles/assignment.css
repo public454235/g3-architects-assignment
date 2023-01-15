@@ -1,0 +1,275 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+.wrapper{
+    margin: 0 120px;
+}
+/* ---------------
+header styles-------
+---------------------- */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+.logo{
+    font-weight: 700;
+    font-size: 30px;
+}
+nav ul{
+    list-style: none;
+    
+}
+nav li a{
+    text-decoration: none;
+}
+nav ul {
+    display: flex;
+    gap: 30px;
+    
+    
+}
+nav ul li a{
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+/* ------------------
+------banner style-------- */
+
+.banner{
+    text-align: center;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 65px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 30px;
+    
+}
+.btn-primary{
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 25px;
+    border-radius: 8px;
+    background-color: #FF900E;
+    color: white;
+    border: 0;
+    margin-bottom: 50px;
+    
+}
+.banner-img img{
+    width: 100%;
+    margin-bottom: 130px;
+}
+/* ------team-styles------- */
+
+.team{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 60px;
+    margin-bottom: 130px;
+}
+.img-team{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.img-team img{
+    width: 142px;
+    height: 142px;
+    
+}
+.team-tist{
+    margin-left: 40px;
+    left: 70px;
+}
+.team-title{
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+strong{
+    color: black;
+}
+
+/* <!-- -----Experience styles----- --> */
+.Features{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 130px;
+}
+.experience{
+    width: 50%;
+}
+
+.experience-title{
+    font-weight: 700;
+    font-size: 30px;
+    border-left: 5px solid #FF900E;
+    
+    
+}
+.span-lef{
+    position: relative;
+    left: 25px;
+}
+.experience-sub-title{
+    position: relative;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    left: 30px;
+}
+.sub-title{
+    font-weight: 600;
+    font-size: 18px;
+    color: #131313;
+}
+.descrip{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.experience-img img{
+    margin-left: 40px;
+    width: 100%;
+    left: 50px;
+}
+.btn-year-primary{
+    margin-left: 130px;
+}
+.experience-img .btn-year-primary{
+    font-weight: 500;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+    font-size: 20px; 
+    border-radius: 8px;
+    background-color: #FF900E;
+    color: white;
+    padding: 20px;
+    border: 0;
+    
+
+}
+
+#experiences{
+    font-weight: 700;
+    font-size: 45px;
+    
+}
+/* -----containe------- */
+
+.container{
+    margin-bottom: 130px;
+}
+
+.containe{
+    font-size: 700;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.box-detail img{
+    width: 45px;
+}
+.box-title{
+    width: 200.83px;
+    height: 200.83px;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 20px;
+    border-color: #FF900E;
+}
+
+.butn-pric{
+    font-weight: 600;
+    font-size: 30px;
+    color: #424242;
+
+}
+
+.butn-name{
+    font-weight: 500;
+    font-size: 16px;
+    color: #727272;
+}
+
+
+
+/* button */
+
+.mar{
+    margin-bottom: 130px;
+}
+
+.Our-Sponspors{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.Our-title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #131313;
+}
+.descrip{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    
+}
+
+.all-images{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+/* -----------footer------- */
+footer{
+background-color: #FFF4E7;
+}
+.all-rights{
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+    text-align: center;
+
+}
+.box-title:hover{
+    background-color: aquamarine;
+}
+
+
+
+@media screen and (max-width:576){
+    header, .team, .Features, .box, .all-images, .nav ul{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .img-team{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    .experience-img img{
+        width: 100%;
+    }
+    
+}
